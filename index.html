@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Development (un-minified) -->
+    <script src="./solanaWeb3.browser.js"></script>
+
+    <!-- Production (minified) -->
+  </head>
+  <body>
+    <button onclick="connectWallet()">Connect</button>
+
+    <input type="number" placeholder="Sol to send" id="quantity"/>
+    <button onclick="signInTransactionAndSendMoney()">Send Money</button>
+
+    <p id="status_p">Status: <span id="status">Disconnected</span></p>
+    <script src="./solana-tipjar.js"></script>
+  </body>
+</html>
