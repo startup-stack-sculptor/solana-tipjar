@@ -1,0 +1,4 @@
+* Project Details
+I needed a simple tip jar for Solana
+
+
